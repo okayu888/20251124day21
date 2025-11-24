@@ -1,0 +1,25 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+header h1 {
+  text-align: center;
+  color: #333;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#messageArea {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #087;
+}
