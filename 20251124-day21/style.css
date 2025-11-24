@@ -1,25 +1,46 @@
+/* 全体の背景色を薄いグレーに */
 body {
   font-family: system-ui, sans-serif;
   max-width: 700px;
   margin: 40px auto;
   padding: 0 20px;
   line-height: 1.6;
+  background-color: #f5f7fa; /* 背景色追加 */
 }
 
+/* 見出しにアクセントカラーを追加 */
 header h1 {
   text-align: center;
-  color: #333;
+  color: #2c3e50; /* 少し濃い青みがかった黒 */
+  background: #e8eff7; /* 見出し背景色 */
+  padding: 10px 0;
+  border-radius: 6px;
 }
 
+/* ボタンをカラー化（ブルー系） */
 button {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
+  background-color: #3498db; /* ボタンの青 */
+  color: white; /* 文字は白 */
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s; /* ホバー時のアニメーション */
 }
 
+button:hover {
+  background-color: #2980b9; /* 少し濃い青（ホバー） */
+}
+
+/* メッセージ表示部分に優しい緑色 */
 #messageArea {
   margin-top: 20px;
   font-weight: bold;
-  color: #087;
+  color: #2d8a5f; /* 緑を濃くして読みやすく */
+  padding: 5px;
+  background: #e6f5ef; /* 薄い緑の背景 */
+  border-radius: 4px;
 }
+
