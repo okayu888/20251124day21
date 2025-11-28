@@ -4,7 +4,7 @@ body {
   margin: 40px auto;
   padding: 0 20px;
   line-height: 1.6;
-  background-color: #fffbe6;
+  background-color: #e6f7ff; /* ← 色を変更しました */
 }
 
 header h1 {
